@@ -1,0 +1,91 @@
+
+ h4 {
+  text-transform: uppercase;
+  color: #ffc4b0;
+  font-weight: bold;
+    float: center;
+    padding: 10px;
+    width: 40%;
+    margin: 10px;
+
+}
+ h2 {
+  text-transform: uppercase;
+  color: #355c7d;
+  font-weight: bold;
+}
+
+ body {
+  color: #355c7d;
+}
+
+.row {
+  margin-bottom: 30px;
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-right:25px;
+  width:100%;
+}
+  section.each{
+    margin: 10px;
+  background-color: #cccccc;
+  padding: 20px;
+      height: 1000px;
+  }
+
+    p {
+  clear: both;  
+  padding: 5px;  
+  text-align: left;   
+  }
+
+
+
+/********** Large devices **********/
+@media (min-width: 992px) {
+ .col-lg-3 {
+    float: left;
+    width: 33.33%;
+  }  
+}
+
+/********** Medium devices **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-4 {
+    float: left;
+    width: 50%;
+  }
+  .middle {
+   width: 100%;
+  }
+}
+
+/* The navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
